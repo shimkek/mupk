@@ -67,11 +67,16 @@ const createNurtable = () => {
     document.getElementById("wrapper").innerHTML = codeBlock;
 };
 
-const addElementInput = () => {
+const addElementInput = (event) => {
+    event.preventDefault();
+    const form = document.getElementById("nurForm");
+
+    if (form.reportValidity()) {
     const nameForm = document.getElementById("nameForm").value;
     const surnameForm = document.getElementById("surnameForm").value;
     const user = { 'name': nameForm, 'surname': surnameForm };
     addElement(user);
     document.getElementById("nameForm").value = "";
     document.getElementById("surnameForm").value = "";
+    }
 };
