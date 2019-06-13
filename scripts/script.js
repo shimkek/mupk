@@ -47,7 +47,7 @@ const addElement = (user) => {
 
 const addNurbot = () => {
 
-    let user5 = { 'name': 'nurbot', 'surname': 'nazarbaev' };
+    let user5 = { 'name': 'pekabot', 'surname': 'Nurbolatov' };
     addElement(user5);
 
 };
