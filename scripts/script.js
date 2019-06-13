@@ -1,7 +1,7 @@
-let user1 = { 'name': 'Олег', 'surname': 'Пекан' };
+let user1 = { 'name': 'Кайрат', 'surname': 'Нуртас' };
 let user2 = { 'name': 'Андрей', 'surname': 'Грек' };
-let user3 = { 'name': 'Анвар', 'surname': 'Джобс' };
-let user4 = { 'name': 'Рома', 'surname': 'Метробумин' };
+let user3 = { 'name': 'Де', 'surname': 'Спасито' };
+let user4 = { 'name': 'Вин', 'surname': 'Дизель' };
 let users = [user1, user2, user3, user4];
 let number = users.length;
 
